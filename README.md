@@ -42,8 +42,8 @@ Sử dụng API từ [phimapi.com](https://phimapi.com):
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/movie-streaming-app.git
-cd movie-streaming-app
+git clone https://github.com/yourusername/movie-streaming.git
+cd movie-streaming
 
 # Cài đặt dependencies
 npm install
