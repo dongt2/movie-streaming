@@ -10,7 +10,7 @@
               <div class="bg-primary-600 text-white p-2 rounded-lg mr-3">
                 <Play class="w-6 h-6" />
               </div>
-              <span class="text-xl font-bold text-white">PhimMoi</span>
+              <span class="text-xl font-bold text-white">ZoPhim</span>
             </router-link>
           </div>
 
@@ -36,6 +36,13 @@
               active-class="text-white"
             >
               Tìm Kiếm
+            </router-link>
+            <router-link
+              to="/donate"
+              class="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors duration-200"
+              active-class="text-white"
+            >
+              Donate
             </router-link>
           </div>
 
@@ -75,6 +82,13 @@
           >
             Tìm Kiếm
           </router-link>
+          <router-link
+            to="/donate"
+            @click="mobileMenuOpen = false"
+            class="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium"
+          >
+            Donate
+          </router-link>
         </div>
       </div>
     </nav>
@@ -89,7 +103,7 @@
       <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <p class="text-gray-400 text-sm">
-            © 2025 PhimMoi. Xem phim online miễn phí với chất lượng HD.
+            © 2025 ZoPhim. Zô để xem phim.
           </p>
         </div>
       </div>

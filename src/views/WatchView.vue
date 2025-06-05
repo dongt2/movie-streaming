@@ -21,14 +21,14 @@
     </div>
 
     <!-- Video Player -->
-    <div v-else-if="currentEpisode && videoUrl" class="w-75">
+    <div v-else-if="currentEpisode && videoUrl" class="w-full">
       <!-- Video Container -->
-      <div class="relative w-75" :class="isFullscreen ? 'h-screen' : 'aspect-video'">
+      <div class="relative w-full" :class="isFullscreen ? 'h-screen' : 'aspect-video'">
         <!-- Iframe Player for Embed URLs -->
         <iframe
           v-if="isEmbedUrl(videoUrl)"
           :src="videoUrl"
-          class="w-75 h-75 bg-black"
+          class="w-full h-full bg-black"
           frameborder="0"
           allowfullscreen
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

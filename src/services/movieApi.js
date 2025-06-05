@@ -1,6 +1,7 @@
 import axios from 'axios'
+import { obfuscateApiUrl } from '../utils/security'
 
-const API_BASE_URL = 'https://phimapi.com'
+const API_BASE_URL = obfuscateApiUrl('https://phimapi.com')
 
 // Create axios instance with default config
 const apiClient = axios.create({
@@ -14,7 +15,6 @@ const apiClient = axios.create({
 // Request interceptor
 apiClient.interceptors.request.use(
   (config) => {
-    console.log(`Making API request to: ${config.url}`)
     return config
   },
   (error) => {
@@ -28,7 +28,6 @@ apiClient.interceptors.response.use(
     return response
   },
   (error) => {
-    console.error('API Error:', error)
     return Promise.reject(error)
   }
 )

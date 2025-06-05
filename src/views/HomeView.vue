@@ -1,10 +1,19 @@
 <template>
   <div class="min-h-screen">
+    <!-- Announcement Banner -->
+    <div class="bg-dark-900 text-white py-2">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-center text-sm">
+          <span class="mr-2">🔥</span>
+          <p>Nếu website bị lỗi, vui lòng Ctrl + F5 để refresh lại trang</p>
+        </div>
+      </div>
+    </div>
     <!-- Hero Section -->
     <section class="relative h-96 bg-gradient-to-r from-primary-900 to-primary-700 flex items-center">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">
-          Xem Phim Online
+          Zô Phim
         </h1>
         <p class="text-xl text-gray-200 mb-8">
           Khám phá hàng ngàn bộ phim và phim bộ mới nhất với chất lượng HD
