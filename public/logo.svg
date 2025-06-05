@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>Dự án mới</title>
+	<defs>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAAAXNSR0IB2cksfwAAAEhJREFUeJztz8ENABAUwNAfe2EN4xiEvdiALYzRSPpuPTadm8+YZaxdW0Ttv3WKzzlAc4DmAM0BmgM0B2gO0BygOUBzgOYA7QH3gGDx421ZUgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 24px;fill: #ffffff;font-weight: 400;font-family: "BebasNeueRegular", "Bebas Neue" } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<text id="Z" style="transform: matrix(1,0,0,1,0,-1)" >
+		<tspan x="7.5" y="21.4" class="t0">Z</tspan><tspan  y="21.4" class="t0">
+</tspan>
+	</text>
+</svg>

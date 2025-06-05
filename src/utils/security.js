@@ -30,6 +30,51 @@ const preventDevTools = () => {
     e.preventDefault()
   })
 
+  // Prevent Ctrl+Shift+I  (View Source)
+  document.addEventListener('keydown', (e) => {
+    if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+      e.preventDefault()
+    }
+    // Prevent Ctrl+Shift+S (Save Page As)
+  document.addEventListener('keydown', (e) => {
+    if (e.ctrlKey && e.shiftKey && e.key === 'S') {
+      e.preventDefault()
+    }
+    // Prevent Ctrl+Shift+J (Console)
+    document.addEventListener('keydown', (e) => {
+      if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+        e.preventDefault()
+      }
+    })
+    // Prevent Ctrl+Shift+C (Copy)
+    document.addEventListener('keydown', (e) => {
+      if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+        e.preventDefault()
+      }
+    })
+    // Prevent Ctrl+Shift+V (Paste)
+    document.addEventListener('keydown', (e) => {
+      if (e.ctrlKey && e.shiftKey && e.key === 'V') {
+        e.preventDefault()
+      }
+    })
+    // Prevent Ctrl+Shift+A (Select All)
+    document.addEventListener('keydown', (e) => {   
+      if (e.ctrlKey && e.shiftKey && e.key === 'A') {
+        e.preventDefault()
+      }
+    })
+    // Prevent Ctrl+Shift+P (Print)
+    document.addEventListener('keydown', (e) => {   
+      if (e.ctrlKey && e.shiftKey && e.key === 'P') {
+        e.preventDefault()
+      }
+    })
+  })
+
+  })
+
+
   // Detect DevTools opening
   let devtools = function() {}
   devtools.toString = function() {

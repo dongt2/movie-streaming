@@ -7,9 +7,10 @@
           <div class="flex items-center">
             <!-- Logo -->
             <router-link to="/" class="flex items-center">
-              <div class="bg-primary-600 text-white p-2 rounded-lg mr-3">
+              <!-- <div class="bg-primary-600 text-white p-2 rounded-lg mr-3">
                 <Play class="w-6 h-6" />
-              </div>
+              </div> -->
+                <img src="/public/logo.png" alt="Logo" class="w-10 h-10 mr-3">
               <span class="text-xl font-bold text-white">ZoPhim</span>
             </router-link>
           </div>

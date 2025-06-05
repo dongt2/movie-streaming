@@ -4,11 +4,20 @@
       <div class="text-center mb-12">
         <h1 class="text-4xl font-bold text-white mb-4">Ủng Hộ Chúng Tôi</h1>
         <p class="text-lg text-gray-300">
+          Ủng hộ tôi để có thể tiếp tục duy trì và phát triển website.
+          <br>
+          Domain : 35.000 VNĐ/năm
+          <br>
+          Hosting : 100.000 VNĐ/6 tháng
+          <br>
+          Tổng : 135.000 VNĐ
+          <br>
+          <br>
           Cảm ơn bạn đã ủng hộ để chúng tôi có thể tiếp tục phát triển!
           <br>
           <br>
           Web được xây dưng và phát triển với mục đích phi lợi nhuận, chỉ để giúp người dùng tìm kiếm phim một cách dễ dàng và nhanh chóng.
-
+          <br>
         </p>
       </div>
 
@@ -34,7 +43,7 @@
       </div>
 
       <div class="mt-8 text-center text-gray-400">
-        <p>Mọi thắc mắc xin vui lòng liên hệ qua email: dongt20044@gmail.com</p>
+        <p>Mọi thắc mắc xin vui lòng liên hệ qua email: contact@zophim.click</p>
       </div>
     </div>
   </div>
